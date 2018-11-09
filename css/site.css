@@ -1,119 +1,117 @@
-/* ================================= 
-  Base Styles
-==================================== */
-
-* {
-	box-sizing: border-box;
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
-	line-height: 1.6;
-	color: #3a3a3a;
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
 }
 
-p {
-	font-size: .95em;
-	margin-bottom: 1.5em;
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
 }
 
-h2,
-h3,
-a {
-	color: #093a58;
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
 }
 
-h2,
-h3 {
-	margin-top: 0;
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
 }
 
-a {
-	text-decoration: none;
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
 }
 
-/* ================================= 
-  Base Layout Styles
-==================================== */
-
-/* ---- Navigation ---- */
-
-.name {
-	font-size: 1.25em;
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
 }
 
-.name,
-.main-nav li {
-	text-align: center;
-	background: #fff;
-	margin-top: 6px;
-	margin-bottom: 6px;
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
 }
 
-.main-nav a {
-	font-size: .95em;
-	color: #3acec2;
-	text-transform: uppercase;
+fieldset {
+  margin-bottom: 30px;
+  border: none;
 }
 
-.main-nav a:hover {
-	color: #093a58;
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
 }
 
-.name a,
-.main-nav a {
-	padding: 10px 15px;
+label {
+  display: block;
+  margin-bottom: 8px;
 }
 
-/* ---- Layout Containers ---- */
-
-.container {
-	padding-left: 1em;
-	padding-right: 1em;
+label.light {
+  font-weight: 300;
+  display: inline;
 }
 
-.main-header {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	background: #3acec2;
-	margin-bottom: 30px;
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
 }
 
-.main-footer {
-	text-align: center;
-	padding: 2em 0;
-	background: #d9e4ea;
-}
+@media screen and (min-width: 480px) {
 
-/* ================================= 
-  Media Queries
-==================================== */
-
-@media (min-width: 769px) {
-
-	.wrap {
-		min-height: calc(100vh - 89px);
-	}
-
-	.container {
-		width: 80%;
-		max-width: 1150px;
-		margin: 0 auto;
-	}
-
-	.name,
-	.main-nav,
-	.main-nav li {
-		display: inline;
-	}
-
-	.name {
-		width: 240px;
-		margin-right: 50px;
-	}
+  form {
+    max-width: 480px;
+  }
 
 }
-
-
-
-
