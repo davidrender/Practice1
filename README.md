@@ -1,1 +1,1 @@
-# Practice1
+Hello, my name is David Render. The purpose of my Project is to create a repository reflecting a Pizza Checkout webpage. 

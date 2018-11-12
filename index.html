@@ -1,60 +1,313 @@
-<!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sign Up Form</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-    <form action="index.html" method="post">
-      
-      <h1>Aunt Vette's Pizza</h1>
-      
-      <fieldset>
-      <legend><span class="number">1</span> Customer info</legend>  
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name">
-        
-        <label for="mail">Email</label>
-        <input type="email" id="mail" name="user_email">
-        
-        <label for="password">Password</label>
-        <input type="password" id="password" name="user_password">
-        
-        <label>Size Pizza:</label>
-        <input type="radio" id="medium_14" name="user_age"><label for="medium_14" class="light">Medium 14 inch</label><br>
-        <input type="radio" id="large_18" name="user_age"><label for="large_18" class="light">Large 18 inch</label>
-        </fieldset> 
-      
-      <fieldset>
-      <legend><span class="number">2</span>Delivery info</legend>  
-        <label for="bio">Address</label>
-        <textarea id="bio" name="user_bio"></textarea>
-            
-            <label for="job">TYPE of Crust</label>
-            <select id="job" name="user_bio">
-              <optgroup label="Crust">
-               <option value="new_york_thin">New York Thin</option>
-               <option value="hand_tossed">Hand Tossed</option>
-               <option value="deep_dish">Deep Dish</option>
-              </optgroup>
-            </select>
-        
-             <label>Toppings</label>
-             <input type="checkbox" id="cheese" value="cheese_pizza" name="user_interest"><label class="light" for="cheese">Cheese</label><br>
-             <input type="checkbox" id="pepperoni" value="pepperoni_pizza" name="user_interest"><label class="light" for="pepperoni">Pepperoni</label><br>
-             <input type="checkbox" id="supreme" value="supreme_pizza" name="user_interest"><label class="light" for="supreme">Supreme</label><br>
-        
-        
-        
-        
-      
-       </fieldset>  
-      <button type="submit">Submit Order</button>
-      
-    </form>
-    </body>
-</html>
+<div id="DIV_12">
+	<div id="DIV_13">
+		<img src="http://footage.framepool.com/shotimg/qf/559469023-margarita-slice-of-pizza-piece-taking-out.jpg" style="width:75px;position:absolute;" id="Pizza" />
+		<h2 id="H2_15">
+			Aunt Vette's Pizza
+		</h2>
+		<p id="P_16">
+			We aim to serve the tastiest and hugest slices of pizza Louisville has ever seen!!!
+		</p>
+    <p>
+      PIZZA BY THE SLICE!!! </p>
+	</div>
+  <img class="d-block mx-auto mb-4" src="https://cdn0.iconfinder.com/data/icons/pizza-slice-emoji-cartoons/350/pizza-slice-emoji-cartoon-smiley-047-512.png" alt="" width="72" height="72">
+	<div id="DIV_17">
+		<div id="DIV_18">
+			<h4 id="H4_19">
+				 <span id="SPAN_20">Your cart</span> <span id="SPAN_21">3</span>
+			</h4>
+			<ul id="UL_22">
+				<li id="LI_23">
+					<div id="DIV_24">
+						<h6 id="H6_25">
+							One-Topping
+						</h6> <small id="SMALL_26">XL Large</small>
+					</div> <span id="SPAN_27">$10</span>
+				</li>
+				<li id="LI_28">
+					<div id="DIV_29">
+						<h6 id="H6_30">
+             Two-Topping
+            </h6> <small id="SMALL_31">XL Large</small>
+					</div> <span id="SPAN_32">$12</span>
+				</li>
+				<li id="LI_33">
+					<div id="DIV_34">
+						<h6 id="H6_35">
+							Specialty 
+						</h6> <small id="SMALL_36">XL Large</small>
+					</div> <span id="SPAN_37">$14</span>
+				</li>
+        <li id="LI_28">
+					<div id="DIV_29">
+						<h6 id="H6_30">
+             Toppings
+            </h6> <small id="SMALL_40">Cheese/Pepperoni/Sausage</small>
+					</div> 
+				</li>
+				
+				<li id="LI_43">
+					 <span id="SPAN_36">Total </span> <input type="text" id="INPUT_43" />
+				</li>
+			</ul>
+			<form id="FORM_46">
+				<div id="DIV_47">
+					<input type="text" placeholder="Promo code" id="INPUT_48" />
+					<div id="DIV_49">
+						 
+						<button type="submit" id="BUTTON_50">
+							Redeem
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div id="DIV_51">
+			<h4 id="H4_52">
+				Billing address
+			</h4>
+			<form id="FORM_53">
+				<div id="DIV_54">
+					<div id="DIV_55">
+						 
+						<label for="firstName" id="LABEL_56">
+							First name
+						</label>
+						<input type="text" id="INPUT_57" />
+						<div id="DIV_58">
+							Valid first name is required.
+						</div>
+					</div>
+					<div id="DIV_59">
+						 
+						<label for="lastName" id="LABEL_60">
+							Last name
+						</label>
+						<input type="text" id="INPUT_61" />
+						<div id="DIV_62">
+							Valid last name is required.
+						</div>
+					</div>
+				</div>
+				<div id="DIV_63">
+					 
+					<label for="username" id="LABEL_64">
+						Username
+					</label>
+					<div id="DIV_65">
+						<div id="DIV_66">
+							 <span id="SPAN_67">@</span>
+						</div>
+						<input type="text" id="INPUT_68" placeholder="Username" />
+						<div id="DIV_69">
+							Your username is required.
+						</div>
+					</div>
+				</div>
+				<div id="DIV_70">
+					 
+					<label for="email" id="LABEL_71">
+						Email <span id="SPAN_72">(Optional)</span>
+					</label>
+					<input type="email" id="INPUT_73" placeholder="you@example.com" />
+					<div id="DIV_74">
+						Please enter a valid email address for shipping updates.
+					</div>
+				</div>
+				<div id="DIV_75">
+					 
+					<label for="address" id="LABEL_76">
+						Address
+					</label>
+					<input type="text" id="INPUT_77" placeholder="1234 Main St" />
+					<div id="DIV_78">
+						Please enter your shipping address.
+					</div>
+				</div>
+				<div id="DIV_79">
+					 
+					<label for="address2" id="LABEL_80">
+						Address 2 <span id="SPAN_81">(Optional)</span>
+					</label>
+					<input type="text" id="INPUT_82" placeholder="Apartment or suite" />
+				</div>
+				<div id="DIV_83">
+					<div id="DIV_84">
+						 
+						<label for="country" id="LABEL_85">
+							Country
+						</label> 
+						<select id="SELECT_86">
+							 
+							<option id="OPTION_87">
+								Choose...
+							</option> 
+							<option id="OPTION_88">
+								United States
+							</option>
+						</select>
+						<div id="DIV_89">
+							Please select a valid country.
+						</div>
+					</div>
+					<div id="DIV_90">
+						 
+						<label for="state" id="LABEL_91">
+							State
+						</label> 
+						<select id="SELECT_92">
+							 
+							<option id="OPTION_93">
+								Choose...
+							</option> 
+							<option id="OPTION_94">
+								Kentucky
+							</option>
+						</select>
+						<div id="DIV_95">
+							Please provide a valid state.
+						</div>
+					</div>
+					<div id="DIV_96">
+						 
+						<label for="zip" id="LABEL_97">
+							Zip
+						</label>
+						<input type="text" id="INPUT_98" />
+						<div id="DIV_99">
+							Zip code required.
+						</div>
+					</div>
+				</div><hr id="HR_100" />
+				<div id="DIV_101">
+					<input type="checkbox" id="INPUT_102" /> 
+					<label for="same-address" id="LABEL_103">
+						Shipping address is the same as my billing address
+					</label>
+				</div>
+				<div id="DIV_104">
+					<input type="checkbox" id="INPUT_105" /> 
+					<label for="save-info" id="LABEL_106">
+						Save this information for next time
+					</label>
+				</div><hr id="HR_107" />
+				<h4 id="H4_108">
+					Payment
+          <img src="https://vignette.wikia.nocookie.net/villains/images/b/b7/Pizza_Steve.jpg/revision/latest?cb=20140529035226" alt="" width="300" height="300" id="IMG_14" />
+				</h4>
+				<div id="DIV_109">
+					<div id="DIV_110">
+						<input id="INPUT_111" name="paymentMethod" type="radio" /> 
+						<label for="credit" id="LABEL_112">
+							Credit card
+						</label>
+					</div>
+					<div id="DIV_113">
+						<input id="INPUT_114" name="paymentMethod" type="radio" /> 
+						<label for="debit" id="LABEL_115">
+							Debit card
+						</label>
+					</div>
+					<div id="DIV_116">
+						<input id="INPUT_117" name="paymentMethod" type="radio" /> 
+						<label for="paypal" id="LABEL_118">
+							PayPal
+						</label>
+					</div>
+				</div>
+				<div id="DIV_119">
+					<div id="DIV_120">
+						 
+						<label for="cc-name" id="LABEL_121">
+							Name on card
+						</label>
+						<input type="text" id="INPUT_122" /> <small id="SMALL_123">Full name as displayed on card</small>
+						<div id="DIV_124">
+							Name on card is required
+						</div>
+					</div>
+					<div id="DIV_125">
+						 
+						<label for="cc-number" id="LABEL_126">
+							Credit card number
+						</label>
+						<input type="text" id="INPUT_127" />
+						<div id="DIV_128">
+							Credit card number is required
+						</div>
+					</div>
+				</div>
+				<div id="DIV_129">
+					<div id="DIV_130">
+						 
+						<label for="cc-expiration" id="LABEL_131">
+							Expiration
+						</label>
+						<input type="text" id="INPUT_132" />
+						<div id="DIV_133">
+							Expiration date required
+						</div>
+					</div>
+					<div id="DIV_134">
+						 
+						<label for="cc-cvv" id="LABEL_135">
+							CVV
+						</label>
+						<input type="text" id="INPUT_136" />
+						<div id="DIV_137">
+							Security code required
+						</div>
+					</div>
+				</div><hr id="HR_138" /> 
+				<button type="submit" id="BUTTON_139">
+					Continue to checkout
+				</button>
+			</form>
+		</div>
+	</div>
+	<footer id="FOOTER_140">
+		<p id="P_141">
+			© 2017-2018 Aunt Vette's Pizza,Inc. All Rights Reserved.
+		</p>
+		<ul id="UL_142">
+			<li id="LI_143">
+				<a href="#" id="A_144">Privacy</a>
+			</li>
+			<li id="LI_145">
+				<a href="#" id="A_146">Terms</a>
+			</li>
+			<li id="LI_147">
+				<a href="#" id="A_148">Support</a>
+			</li>
+		</ul>
+	</footer>
+</div> <!-- Bootstrap core JavaScript ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<script id="SCRIPT_150">window.jQuery || document.write('
+	</script><\/script>')
+
+
+
+<script id="SCRIPT_154">// Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+					</script>
