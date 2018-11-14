@@ -1,8 +1,0 @@
-$(document).ready(function() {
-  $("#Pizza").click(function() {
-    
-    $("img").animate({left: '300px'}, "slow",function() {
-    $("img").animate({left: '0px'}, "slow");
-    });
-  });
-});
